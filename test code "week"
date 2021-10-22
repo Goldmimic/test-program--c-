@@ -1,3 +1,4 @@
+//задача про дни недели
 using System;
 public class Program {
   
@@ -31,6 +32,51 @@ public class Program {
             default:
             Console.WriteLine("this number does not belong to the week");
             break;
+    }
+  }
+}
+
+using System;
+public class Program {
+  
+  
+  //задача про школу
+  static void Main() {
+    Console.WriteLine("Write number");
+    int day =int.Parse(Console.ReadLine());
+    switch(day){
+      case 1:
+      case 2:
+      case 3:
+      case 4:
+        Console.WriteLine("beginner");
+        break;
+        //case 2:
+            //Console.WriteLine("begginer");        
+            //break;
+        //case 3:    
+           // Console.WriteLine("Wednesday");        
+            //break;
+        //case 4:
+            //Console.WriteLine("Thursday");        
+            //break;
+      case 5:
+      case 6:
+      case 7:
+      case 8:    
+        Console.WriteLine("medium");
+        break;
+        //case 6:    
+            //Console.WriteLine("Saturday");
+            //break;
+      case 9:
+      case 10:
+      case 11:    
+        Console.WriteLine("finish");
+        break;
+      default:
+        Console.WriteLine("this number does not belong to the class");
+        break;
     }
   }
 }
