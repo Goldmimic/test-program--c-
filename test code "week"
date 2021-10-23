@@ -80,3 +80,19 @@ public class Program {
     }
   }
 }
+//найти сумму первых n членов арифметической прогрессии 
+
+using System;
+public class Program { 
+  static void Main() {
+  Console.Write("n= ");
+  int n=Convert.ToInt32(Console.ReadLine());
+  int sum =0;
+  for (int i = 1 ; i <= n ;i++)
+  {
+  sum +=i;
+  }
+  Console.WriteLine("the sum of the first {0} members of the arithmetic progression is {1}",n,sum);
+  Console.ReadLine();
+  }
+}
