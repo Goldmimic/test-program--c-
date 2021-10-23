@@ -96,3 +96,27 @@ public class Program {
   Console.ReadLine();
   }
 }
+//поиск факториала
+using System;
+
+
+public class Program 
+{ 
+static void Main() 
+{
+ Console.Write("p= ");
+ ulong p = Convert.ToUInt32(Console.ReadLine());
+ ulong i = p;
+ ulong fact = 1;
+ do
+  {
+    fact *=i;
+    --i;
+  }
+ while (i > 1);
+
+ Console.WriteLine($"{p}! = {fact}");
+
+ Console.ReadLine();
+  }
+}
