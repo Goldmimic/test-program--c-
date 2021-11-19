@@ -164,3 +164,44 @@ max = array[i];
 Console.WriteLine(max);
 }
 }
+// Даны три целых числа. Выбрать из них те, которые принадлежат интервалу [1,3]. using System;
+class MainClass {
+static void Main() {
+    int a = Convert.ToInt32(Console.ReadLine());
+    int b = Convert.ToInt32(Console.ReadLine());
+    int c = Convert.ToInt32(Console.ReadLine());
+    if (a >= 1 && a <= 3)
+    Console.WriteLine(a);
+    if (b >= 1 && b <= 3)
+    Console.WriteLine(b);
+    if (c >= 1 && c <= 3)
+    Console.WriteLine(c);
+        
+    }
+}
+//вычисления стоимости покупки с учетом скидки. Скидка в 3% предоставляется в том случае, если сумма покупки больше 500 руб., в 5% - если сумма больше 1000 руб.
+ using System;
+
+class MainClass 
+{
+
+static void Main() 
+    {
+          double a1;
+          double a = Convert.ToInt32(Console.ReadLine());
+          if (a >= 500 && a < 1000) 
+        {
+          a1=(a-(a*0.03));   
+          Console.WriteLine(a1);
+        }
+          else if (a >= 1000) 
+        {
+          a1=(a-(a*0.05));
+          Console.WriteLine(a1);  
+        }
+          else  
+        {
+          Console.WriteLine(a);  
+        }
+    }
+}
