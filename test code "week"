@@ -1,4 +1,4 @@
-//задача про дни недели
+//задача 1 - при вводе числа выводит день недели
 using System;
 public class Program {
   
@@ -40,7 +40,7 @@ using System;
 public class Program {
   
   
-  //задача про школу
+  //задача 2 - задача про школу
   static void Main() {
     Console.WriteLine("Write number");
     int day =int.Parse(Console.ReadLine());
@@ -80,7 +80,7 @@ public class Program {
     }
   }
 }
-//найти сумму первых n членов арифметической прогрессии 
+//Задача 3 - найти сумму первых n членов арифметической прогрессии 
 
 using System;
 public class Program { 
@@ -96,7 +96,7 @@ public class Program {
   Console.ReadLine();
   }
 }
-//поиск факториала
+//Задача 4 - поиск факториала
 using System;
 
 
@@ -122,7 +122,7 @@ static void Main()
 }
 
 
-// Задана последовательность из n действительных чисел. Найти сумму всех ее элементов.
+//Задача 5 - Задана последовательность из n действительных чисел. Найти сумму всех ее элементов.
 using System;
 
 class Program
@@ -142,7 +142,7 @@ Console.WriteLine(sum);
 }
 }
  
-// Дан массив N целых чисел. Найти наибольший элемент массива.
+//Задача 6 - Дан массив N целых чисел. Найти наибольший элемент массива.
 using System;
 
 class Program
