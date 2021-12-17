@@ -205,3 +205,46 @@ static void Main()
         }
     }
 }
+Задача 9 таблица умножения
+ 
+  using System;
+namespace Test_code
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        for (int i = 2; i < 7; i++)
+        {
+            Console.WriteLine($"Таблица умножения {i}");
+            for (int x = 2; x < 10; x++)
+            {
+                Console.WriteLine($"{x} * {i} = {x * i}");
+            }
+            Console.WriteLine();
+        }
+
+        Console.ReadLine();
+        }  
+    }
+}
+задача 10 вхлдит ли число в интервал
+using System; 
+
+public class Program {
+
+  public static void Main(string[] args) {
+    System.Console.OutputEncoding = System.Text.Encoding.UTF8;
+    int a = int.Parse(Console.ReadLine());
+    int b = int.Parse(Console.ReadLine());
+    int c = int.Parse(Console.ReadLine());
+     if ((a<=3) && (a>=1) ) Console.WriteLine($"Число {a} входит в интервал ");
+     else Console.WriteLine($"Число {a} не входит в интервал");
+      if ((b<=45) && (b>=1) ) Console.WriteLine($"Число {b} входит в интервал ");
+     else Console.WriteLine($"Число {b} не входит в интервал");
+      if ((c<=5) && (c>=1) ) Console.WriteLine($"Число {c} входит в интервал ");
+     else Console.WriteLine($"Число {c} не входит в интервал");
+
+
+  }
+}
